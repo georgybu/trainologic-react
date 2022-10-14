@@ -1,0 +1,14 @@
+.node {
+  display: block;
+
+  li {
+    margin: 8px;
+    padding: 8px;
+    list-style: none;
+
+    &:global(.Group > .label) {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
